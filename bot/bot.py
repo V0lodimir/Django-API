@@ -5,7 +5,7 @@ from db_worker import add_user, message_history
 import datetime
 
 
-bot = telebot.TeleBot('5549312778:AAEI6GujLrDZha5SaqfbEbfnLBscFmYNG14')
+bot = telebot.TeleBot('')
 
 @bot.message_handler(commands=['start', 'help'])
 def send_welcome(message):
